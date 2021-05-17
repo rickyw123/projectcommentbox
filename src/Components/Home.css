@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+}
+.container .leftbox {
+  width: 625px;
+  height: auto;
+  border: 1px solid grey;
+}
+.container .post h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container .allleft {
+  padding-left: 50px;
+}
+.container .allleft .leftbox h1,
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container .allleft .leftbox h1 {
+  margin-left: 20px;
+}
+.container .allleft .leftbox p {
+  font-size: 17px;
+  margin-left: 18px;
+  margin-right: 18px;
+  line-height: 30px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container .rightbox .thoughts h2 {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 100px;
+}
+.comments {
+  margin-left: 50px;
+}
+
+.comments h2 {
+  font-family: "Open Sans", sans-serif;
+}
+/* .commentsleft {
+  width: 525px;
+  height: fit-content;
+}
+.commentsleft p {
+  font-size: 17px;
+  margin-left: 18px;
+  margin-right: 18px;
+  line-height: 30px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+} */
+.container .rightbox .thoughtsbox {
+  margin-left: 100px;
+}
+.container .rightbox textarea {
+  width: 400px;
+  height: 150px;
+  font-size: 20px;
+}
+.container .rightbox .thoughtsbox button {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.container .like-text::selection {
+  background-color: transparent;
+}
+/* .single-comment {
+  border: 1px solid black;
+  margin-top: 30px;
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+}
+
+.bungkus-p {
+  width: 100%;
+} */
+
+.commentsleft {
+  /* background-color: blue; */
+  width: 620px;
+}
+.commentsleft .single-comment {
+  border: 1px solid black;
+  width: 500px;
+  word-wrap: break-word;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+}
+
+.commentsleft .single-comment {
+  font-family: "Open Sans", sans-serif;
+}
